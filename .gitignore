@@ -1,2 +1,4 @@
-rag-videos/
-git_all_audios/
+*.webm
+*.mp3
+
+jsons/
