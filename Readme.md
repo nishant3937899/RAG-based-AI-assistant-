@@ -88,20 +88,6 @@ Ask any question related to your course — the assistant will retrieve relevant
 
 ---
 
-## 🧱 Folder Structure
-```
-.
-├── app.py
-├── video_to_mp3.py
-├── mp3_to_json.py
-├── preprocess_json.py
-├── jsons/
-├── videos/
-├── embeddings.joblib
-└── templates/
-```
-
----
 
 
 
