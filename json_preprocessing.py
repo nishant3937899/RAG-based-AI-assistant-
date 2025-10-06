@@ -21,10 +21,11 @@ my_dict=[]
 chunk_id=0
 
 for jason in jsons:
-    with open(f'jsons/{jason}') as f:
-        content = json.load(f)
-    print(f'creating embedding for {jason}')
-    embedding = create_embbeding([c['text'] for c in content['chunks']] )
+    if jason.endswith('json'):
+        with open(f'jsons/{jason}') as f:
+            content = json.load(f)
+        print(f'creating embedding for {jason}')
+        embedding = create_embbeding([c['text'] for c in content['chunks']] )
     
 
     for i,chunk in enumerate(content['chunks']):
@@ -32,6 +33,7 @@ for jason in jsons:
         chunk['embedding']=embedding[i]
         chunk_id+=1
         my_dict.append(chunk)
+    
 
 df = pd.DataFrame.from_records(my_dict)
 

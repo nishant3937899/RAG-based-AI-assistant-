@@ -37,7 +37,7 @@ def icopro(querry):
 
     similarity = cosine_similarity(np.vstack(df['embedding']), [embeded_question]).flatten()
 
-    top_result= 5
+    top_result= 6
     max_idx=similarity.argsort()[::-1][0:top_result]
     new_df=df.loc[max_idx]
 
