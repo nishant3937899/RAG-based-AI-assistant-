@@ -49,7 +49,8 @@ def icopro(querry):
     "{incoming_query}"
     User asked this question related to the video chunks, you have to answer in a human way (dont mention the above format, its just for you)
       where and how much content is taught in which video (in which video and at what timestamp) and guide the user to go to that particular video. 
-      If user asks unrelated question, tell him that you can only answer questions related to the course.and convert the seconds into minutes
+      If user asks unrelated question, tell him that you can only answer questions related to the course.and convert the seconds into minutes .
+      you should also provide a summy of the topic
     '''
 
 
