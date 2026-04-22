@@ -31,4 +31,4 @@ for file in os.listdir('jsons'):
             with open(f'newjsons/{file}', 'w',encoding='utf-8') as json_file:
                 json.dump({'chunks':new_chunks,'text':data['text']},json_file,indent=4)  
 
-                #after doing this i renamed the newjsons folder to jsons folder and deleted jsons folder and run json_preprocessing
+                #after doing this i renamed the newjsons folder to jsons folder and deleted jsons folder & run json_preprocessing
