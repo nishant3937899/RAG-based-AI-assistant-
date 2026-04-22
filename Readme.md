@@ -1,4 +1,4 @@
-# 🎓 RAG-Based Teaching Assistant
+# 🎓 RAG-Based Teaching Assistant 
 
 A **Retrieval-Augmented Generation (RAG)** based AI teaching assistant trained on the first 18 videos of the **Sigma Web Development Course**.  
 This web app answers questions related to the course — such as *“When is CSS taught in this course?”* — and provides both the **time and context** of the topic along with a **brief explanation**.
@@ -53,7 +53,7 @@ The assistant processes course videos, converts them into embeddings, and uses *
 ## 💻 Setup and Usage
 
 ### Step 1 — Collect Your Videos
-Move all your course videos into the `videos/` folder.
+Move all your course videos into the `Videos/` folder.
 
 ### Step 2 — Convert to MP3
 
