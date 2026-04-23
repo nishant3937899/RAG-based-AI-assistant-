@@ -11,7 +11,8 @@ This project demonstrates how RAG can be used to build a **domain-specific AI tu
 The assistant processes course videos, converts them into embeddings, and uses **Llama 3.2** as the reasoning engine to answer user questions with precise context from the training material.
 
 ---
-
+🔗 **Web App Screenshots:**
+![demoIMG](https://github.com/nishant3937899/RAG-based-AI-assistant-/blob/8fbbd7db86e7197635f6353ccb317eff80b4dfbd/img/demo%20img.png)
 ## ⚙️ How It Works
 
 1. **Video Processing:**  
